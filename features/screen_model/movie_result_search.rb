@@ -1,10 +1,7 @@
  class MovieResultScreen < ScreenActions
    def movie_result_search_text(cell= 5)
      find_element(:xpath, "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[#{cell}]/UIAStaticText[1]")
-
-   # find_element(:xpath, "//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[#{cell
-   # }]/UIAStaticText[1]")
-     #xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAStaticText[1]
+     
    end
  end
 

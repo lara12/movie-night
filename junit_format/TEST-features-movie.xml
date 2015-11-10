@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="1" time="58.377053" name="Movies  count how many total movies are on “Featured screen”. Print out total into console">
+<testcase classname="Movies  count how many total movies are on “Featured screen”. Print out total into console" name="As a Movies app user, I would like  to open First 5 Movies and print Movie title/year and rating into" time="58.377053">
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

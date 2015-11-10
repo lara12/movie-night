@@ -36,7 +36,13 @@ When(/^I tap on result i shoud have first (\d+)(?:st|nd|rd|th)? Movies and print
 |cell|
   cells_result= movie_result_search.movie_result_search_text(cell).click
   puts cells_result
-  puts movie_details_screen.state_list.text
+  # Create an array of the text of each link
+
+  for i in 0..2 do
+    puts movie_details_screen.state_list.text
+    break
+  end
+  #puts movie_details_screen.state_list.text
   #state_list = find_element(:name,"title_labell").find_elements(:name, "year_label").find_elements(:name,
   # "rating_label")
   # movie_details_screen.state_list.each do |element|
@@ -46,20 +52,5 @@ When(/^I tap on result i shoud have first (\d+)(?:st|nd|rd|th)? Movies and print
 
  end
 
-
-# def  select_state state
-#   states_dropdown.click
-#   #@browser.find_element(:css, "span.select-current-text").click
-#   state_list = @browser.find_element(:css,"ul.select-ul").find_elements(:tag_name, "a")
-#   state_list.each do |element|
-#     #puts element.text
-#     if element.text == state
-#       element.click
-#       break
-#     end
-#
-#   end
-#
-# end
 
 
