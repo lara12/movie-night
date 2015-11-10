@@ -1,0 +1,3 @@
+class SearchScreen < ScreenActions
+
+end
