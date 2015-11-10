@@ -13,5 +13,5 @@ Feature: Movies  count how many total movies are on “Featured screen”. Print
     Then I should see a list of movies and print out total into console
     Then I see that 5f search result
     #When I tap on 1 result
-   # When I tap on result i shoud have first 5 Movies and print Movie title/year and ratin
+    When I tap on result i shoud have first 5 Movies and print Movie title/year and ratin
 

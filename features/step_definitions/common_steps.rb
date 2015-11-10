@@ -36,15 +36,14 @@ When(/^I tap on result i shoud have first (\d+)(?:st|nd|rd|th)? Movies and print
 |cell|
   cells_result= movie_result_search.movie_result_search_text(cell).click
   puts cells_result
+  puts movie_details_screen.state_list.text
   #state_list = find_element(:name,"title_labell").find_elements(:name, "year_label").find_elements(:name,
   # "rating_label")
-  movie_details_screen.state_list.each do |element|
-    puts element.text
-    break
-  end
-  # cells_result.each do |element|
-  #   puts (element.find_element(:name, "title_label").text)
-  #
+  # movie_details_screen.state_list.each do |element|
+  #   puts element.text
+  #   break
+  # end
+
  end
 
 

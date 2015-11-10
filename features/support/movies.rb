@@ -19,7 +19,7 @@ def movie_result_search
 @movie_result_search||=MovieResultScreen.new
 end
 def movie_details_screen
-  @movie_details_screen||= MovieDetailsScreen
+  @movie_details_screen||= MovieDetailsScreen.new
 end
 
 end
